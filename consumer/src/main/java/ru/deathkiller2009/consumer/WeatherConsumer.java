@@ -6,17 +6,14 @@ import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.TopicPartition;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.boot.security.servlet.ApplicationContextRequestMatcher;
 import org.springframework.context.event.EventListener;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
-import ru.deathkiller2009.dto.WeatherCondition;
 import ru.deathkiller2009.dto.WeatherReport;
 
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 
 @Component
 public class WeatherConsumer {

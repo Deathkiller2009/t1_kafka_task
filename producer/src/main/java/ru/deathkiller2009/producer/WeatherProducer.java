@@ -4,7 +4,6 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-import ru.deathkiller2009.dto.WeatherCondition;
 import ru.deathkiller2009.dto.WeatherReport;
 import ru.deathkiller2009.logic.WeatherReportGenerator;
 

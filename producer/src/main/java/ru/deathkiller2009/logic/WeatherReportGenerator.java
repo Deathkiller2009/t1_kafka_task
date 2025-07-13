@@ -1,15 +1,12 @@
 package ru.deathkiller2009.logic;
 
-import org.apache.kafka.common.protocol.types.Field;
 import org.springframework.stereotype.Component;
 import ru.deathkiller2009.dto.WeatherCondition;
 import ru.deathkiller2009.dto.WeatherReport;
 
-import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 @Component
 public class WeatherReportGenerator {
